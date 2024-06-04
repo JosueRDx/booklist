@@ -1,0 +1,90 @@
+.book-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.book-card img {
+    max-width: 200px;
+    margin: 0 auto 20px;
+    display: block;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.book-card-content {
+    padding: 20px;
+}
+
+.book-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.book-card-author {
+    font-size: 18px;
+    color: #4a5568;
+    margin-bottom: 10px;
+}
+
+.book-card-year {
+    font-size: 16px;
+    color: #718096;
+    margin-bottom: 20px;
+}
+
+.book-card-synopsis {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+.button-blue {
+    background-color: #4299e1;
+    color: #ffffff;
+}
+
+.button-blue:hover {
+    background-color: #3182ce;
+}
+
+.button-yellow {
+    background-color: #ecc94b;
+    color: #2d3748;
+}
+
+.button-yellow:hover {
+    background-color: #d69e2e;
+}
+
+.button-red {
+    background-color: #f56565;
+    color: #ffffff;
+}
+
+.button-red:hover {
+    background-color: #e53e3e;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
